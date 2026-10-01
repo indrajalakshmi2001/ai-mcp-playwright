@@ -65,10 +65,11 @@ The final Playwright run completed successfully with **12/12 browser test execut
 │   ├── example.spec.ts                 # GET Products API
 │   ├── get-product-details.spec.ts     # GET Product Details API
 │   └── post-order.spec.ts              # POST Order API
-├── package.json                        # npm project and dependencies
-├── package-lock.json                   # Locked dependency versions
+├── README.md                            # Project documentation
+├── package.json                         # npm project and dependencies
+├── package-lock.json                    # Locked dependency versions
 ├── playwright.config.ts                # Playwright projects and HTML reporter
-└── .gitignore                          # Ignored test artifacts and dependencies
+└── .gitignore                           # Ignored test artifacts and dependencies
 ```
 
 ## Running the Tests
