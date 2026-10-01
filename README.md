@@ -56,20 +56,19 @@ The final Playwright run completed successfully with **12/12 browser test execut
 .
 ├── .github/
 │   └── workflows/
-│       └── playwright.yml       # GitHub Actions workflow
+│       ├── playwright.yml              # GitHub Actions workflow
+│       └── copilot-setup-steps.yml     # GitHub Copilot setup workflow
 ├── .vscode/
-│   └── mcp.json                 # MCP server configuration
-├── specs/
-│   └── README.md                # Test-plan directory notes
+│   └── mcp.json                        # MCP server configuration
 ├── tests/
-│   ├── seed.spec.ts             # UI E2E purchase flow
-│   ├── example.spec.ts          # GET Products API
-│   ├── get-product-details.spec.ts
-│   └── post-order.spec.ts       # POST Order API
-├── package.json                 # npm project and dependencies
-├── package-lock.json             # Locked dependency versions
-├── playwright.config.ts         # Playwright projects and HTML reporter
-└── .gitignore                   # Ignored test artifacts and dependencies
+│   ├── seed.spec.ts                    # UI E2E purchase flow
+│   ├── example.spec.ts                 # GET Products API
+│   ├── get-product-details.spec.ts     # GET Product Details API
+│   └── post-order.spec.ts              # POST Order API
+├── package.json                        # npm project and dependencies
+├── package-lock.json                   # Locked dependency versions
+├── playwright.config.ts                # Playwright projects and HTML reporter
+└── .gitignore                          # Ignored test artifacts and dependencies
 ```
 
 ## Running the Tests
